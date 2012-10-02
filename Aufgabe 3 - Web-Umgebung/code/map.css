@@ -1,0 +1,15 @@
+body {
+	background: #dedede;
+	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;	
+	margin: 0 auto;
+	width: 1680px;
+	padding: 20px;
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.3em;
+}
+
+h1 {
+	font-family: Georgia, "Bitstream Charter", serif;
+}

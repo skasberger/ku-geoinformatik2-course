@@ -1,0 +1,5 @@
+string replace von komma
+csv export
+bezirk entry
+löschen von mehreren festpunkten
+

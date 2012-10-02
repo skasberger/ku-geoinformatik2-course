@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" media="all" href="style.css">
+		<title>Index >> Uebungsaufgabe #3 - LV Geoinformatik 2</title>
+	</head>
+	<body>
+		<h1>Menu</h1>
+		<ul>
+			<li><a href="festpunkt-eingabe.html">Festpunkt eingeben</a></li>
+			<li>Festpunkte ansehen/löschen<form action="festpunkt-ansehen.php"><select name="strRefsysAn">
+				<option value="32N">UTM 32 N</option>
+				<option value="33N">UTM 33 N</option>
+				<option value="M28">GK M28</option>
+				<option value="M31">GK M31</option>
+				<option value="M34">GK M34</option>
+				<option value="BMNM31">BMNM31</option>
+				<option value="BMNM34">BMNM34</option>
+				<option value="WGS">GCS WGS84</option>
+				</select>
+				<input type="submit" value="Festpunkte ansehen/loeschen">
+				</form></li>
+			<li><a href="festpunkt-export.html">Festpunkt(e) exportieren</a></li>
+			<li><a href="map.php">Karte mit Festpunkten anzeigen</a></li>	
+		</ul>
+	</body>
+</html>

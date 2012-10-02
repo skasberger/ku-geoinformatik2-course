@@ -1,0 +1,31 @@
+body {
+	background: #dedede;
+	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;	
+	margin: 0 auto;
+	width: 940px;
+	padding: 20px;
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.3em;
+}
+
+h1 {
+	font-family: Georgia, "Bitstream Charter", serif;
+}
+
+#csv {
+	background: white;
+	color: #000;
+	font-size: 12px;
+}
+
+.umkreis {
+	background: #e3ffb6;
+	padding: 20px;
+}
+
+#festpunkt {
+	background: white;
+	padding: 20px;
+}

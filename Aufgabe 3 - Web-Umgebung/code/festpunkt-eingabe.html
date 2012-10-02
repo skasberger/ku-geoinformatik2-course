@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" media="all" href="style.css">
+		<title>Eingabe Festpunkt >> Uebungsaufgabe #3 - LV Geoinformatik 2</title>
+	</head>
+	<body>
+		<h1>Eingabe eines Festpunktes</h1>
+			<form action="festpunkt-eingabe.php">
+			Name: <input name="strNameFP" type ="text" size="10" maxlength="10"><br>
+			X-Wert: <input name="intX_FP" type ="integer" size="20" maxlength="20">bitte mit Punkt als Trennzeichen bei Kommastellen (WGS84)<br>
+			Y-Wert: <input name="intY_FP" type ="integer" size="20" maxlength="20">bitte mit Punkt als Trennzeichen bei Kommastellen (WGS84)<br>
+			Höhe: <input name="intH_FP" type ="integer" size="20" maxlength="20"> (optional)<br>
+			Typ: <select name="strFP_Typ">
+			<option value="Fixpunkt">Fixpunkt</option>
+			<option value="Höhenpunkt">Höhenpunkt</option>
+			<option value="Triangulierungspunkt">Triangulierungspunkt</option>
+			</select><br>
+			Koordinaten-System: <select name="strRefsys">
+			<option value="32N">UTM 32 N</option>
+			<option value="33N">UTM 33 N</option>
+			<option value="M28">GK M28</option>
+			<option value="M31">GK M31</option>
+			<option value="M34">GK M34</option>
+			<option value="BMNM31">BMN31</option>
+			<option value="BMNM34">BMN34</option>
+			<option value="WGS">GCS WGS84</option>
+			</select><br>
+			<input type="submit" value="Festpunkt hinzufuegen"><br>
+		</form>
+		<a href="./index.html">Zurueck zum Menu</a>
+	</body>
+</html>
